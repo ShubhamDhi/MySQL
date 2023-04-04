@@ -57,6 +57,7 @@ FROM
         LEFT JOIN category ON category.category_id = film_category.category_id
 GROUP BY store_id , category.name
 
+
 -- List all customer names, which store they go to, their active status, and full addresses (street address, city, and country)
 
 SELECT 
